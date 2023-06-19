@@ -1,0 +1,41 @@
+/* ===== ESTE BLOCO FAZ UM RESET, OU SEJA GARANTE QUE ALGUNS ATRIBUTOS
+ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÕES DO NAVEGADOR =====*/
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: none;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+    /*/overflow: hidden;*/
+  } 
+.tela{
+    /* TelaMobile */
+    position: relative;
+    width: 380px;
+    height: 740px;
+    background: #FFFFFF;
+  }
+.maobot{
+    /* maobot*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    position: absolute;
+    width: 333px;
+    height: 112px;
+    left: 24px;
+    top: 31px;
+  }
+.cardback{
+    * card back side 3 */
+    width: 72px;
+    height: 112px;
+    background-image: url("./imgcards/card back side.png");
+    border-radius: 20px;
+    
+}
+  
